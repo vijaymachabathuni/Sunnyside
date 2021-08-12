@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Coustard:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ultra&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap");
+
+#header {
+  /* background-color: rgb(61, 190, 253); */
+  /* color: white !important; */
+  background-image: url("images/desktop/image-header.jpg");
+  background-size: 100% 40em;
+  background-repeat: no-repeat;
+  height: 40em;
+}
+
+@media (max-width: 768px) {
+  #header {
+    background-image: url("images/mobile/image-header.jpg");
+  }
+}
+
+.container {
+  padding: 0 !important;
+}
+
+.navbar {
+  padding: 1em 2em;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bolder;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url(/images/icon-hamburger.svg) !important;
+  background-size: 1em;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+li {
+  padding: 0 1em;
+  text-align: center;
+}
+
+.nav-link {
+  display: inline-block;
+  color: white !important;
+  font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+  .nav-link {
+    color: gray !important;
+  }
+}
+
+.contact {
+  color: black !important;
+  font-family: "Coustard", serif;
+  font-weight: bolder;
+  font-size: 0.75em;
+  padding-top: 1em;
+  padding-left: 2em !important;
+  padding-right: 2em !important;
+  border: 1px solid white;
+  border-radius: 5em;
+  background-color: white;
+}
+
+.navbar-toggler {
+  border: 0 !important;
+  color: white !important;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1em 0.5em 1em 1.5em;
+  }
+  .navbar-nav {
+    margin-top: 1em;
+    border: 1px solid white;
+    background-color: white;
+    padding: 1em;
+    margin-right: 1em;
+  }
+
+  .contact {
+    background-color: #ffd602;
+  }
+}
+
+.addStyles {
+  font-size: 2.5em;
+  font-family: "Coustard", serif;
+  letter-spacing: 0.2em;
+  margin-top: 2em;
+}
+
+.row {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.box-1,
+.box-4 {
+  height: 30em;
+  padding: 6em;
+}
+
+.box-4 {
+  padding: 6em 6em 7em 5em;
+}
+
+.box-2 {
+  background-image: url(/images/desktop/image-transform.jpg);
+  background-size: 100% 30em;
+  background-repeat: no-repeat;
+}
+
+.box-3 {
+  background-image: url(/images/desktop/image-stand-out.jpg);
+  background-size: 100% 30em;
+  background-repeat: no-repeat;
+}
+
+.box-5 {
+  height: 30em;
+  background-image: url(/images/desktop/image-graphic-design.jpg);
+  background-size: 100% 30em;
+  background-repeat: no-repeat;
+}
+
+.box-6 {
+  height: 30em;
+  background-image: url(/images/desktop/image-photography.jpg);
+  background-size: 100% 30em;
+  background-repeat: no-repeat;
+}
+
+.box-heading {
+  font-size: 1.7em;
+  font-family: "Ultra", serif;
+}
+
+.box-content {
+  font-size: 0.9em;
+  padding: 3em 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: gray;
+}
+
+.box-last-line {
+  font-family: "Coustard", serif;
+}
+
+.box5-container {
+  width: 50%;
+  margin: 20em auto;
+}
+
+.box5-heading {
+  font-size: 1em;
+  font-family: "Ultra", serif;
+  text-align: center;
+}
+
+.box5-content {
+  font-size: 0.9em;
+  padding: 2em 0;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: gray;
+  text-align: center;
+}
+
+.clientStyles {
+  padding: 8em;
+}
+
+.client-heading {
+  font-family: "Coustard", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #adaaaa;
+}
+
+.photo-wrapper {
+  padding: 4em;
+  text-align: center;
+}
+
+.client-photos {
+  height: 5em;
+  border: 1px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.client-content {
+  font-size: 0.9em;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: gray;
+  text-align: center;
+  padding-bottom: 5em;
+}
+
+.client-name {
+  font-size: 0.9em;
+  font-family: "Ultra", serif;
+  text-align: center;
+  padding-bottom: 0.5em;
+}
+
+.client-role {
+  font-size: 0.85em;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  text-align: center;
+  color: rgb(175, 175, 175);
+}
+
+.imgStyles {
+  height: 22em;
+  width: 100%;
+}
+
+.footer-wrapper {
+  padding: 3em 0;
+  margin: 0;
+  background-color: #91d3c6;
+}
+
+.footer-heading {
+  font-size: 1.5em;
+  color: #185a4d;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer-items {
+  padding: 0 1.5em;
+  color: #1e8b76;
+  font-size: 0.9em;
+}
